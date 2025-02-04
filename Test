@@ -1,0 +1,25 @@
+local gui = Instance.new("ScreenGui")
+gui.Parent = game.CoreGui
+
+
+
+
+
+
+local ANNAA = Instance.new("TextButton")
+ANNAA.Size = UDim2.new(0, 90, 0, 30)
+ANNAA.Position = UDim2.new(0, 10, 0, 10)
+ANNAA.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+ANNAA.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ANNAA.BorderSizePixel = 1.5
+ANNAA.Text = "Show Gui"
+ANNAA.TextSize = 18
+ANNAA.Draggable = true
+ANNAA.BackgroundTransparency = 0 
+ANNAA.TextColor3 = Color3.new(255, 255, 255)
+ANNAA.Font = Enum.Font.Arcade
+ANNAA.Parent = gui
+
+
+
+
